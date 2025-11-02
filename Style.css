@@ -1,0 +1,221 @@
+/* ✅ Import Google Font (move to top) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* ✅ Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2 {
+  color: #1e3a8a;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Header & Navigation */
+header {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #facc15;
+}
+
+/* ✅ Hero Section */
+#hero {
+  text-align: center;
+  padding: 3em 1em;
+  background-color: #dbeafe;
+  border-bottom: 3px solid #1e3a8a;
+}
+
+/* ✅ About Section */
+#about {
+  padding: 2em;
+  text-align: center;
+}
+
+#about img {
+  border-radius: 50%;
+  border: 3px solid #1e3a8a;
+  margin-bottom: 1em;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* ✅ Projects Section */
+#projects {
+  background-color: #eff6ff;
+  padding: 2em;
+  border-top: 2px solid #93c5fd;
+}
+
+/* ✅ Skills Section */
+#skills {
+  padding: 2em;
+  text-align: center;
+}
+
+#skills table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+#skills th, #skills td {
+  border: 1px solid #1e3a8a;
+  padding: 10px;
+}
+
+#skills th {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+/* ✅ Contact Section */
+#contact {
+  background-color: #e0f2fe;
+  padding: 2em;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #93c5fd;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+/* ✅ Back to Top Button */
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#back-to-top:hover {
+  background-color: #2563eb;
+  transform: scale(1.1);
+}
+
+/* ✅ Footer */
+footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+/* Horizontal Rule */
+hr {
+  border: 1px solid #93c5fd;
+  width: 80%;
+  margin: 2em auto;
+}
+
+/* ✅ Optional Section Styling */
+section {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 2em auto;
+  max-width: 1000px;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #skills table {
+    width: 100%;
+  }
+
+  #about img {
+    width: 120px;
+    height: 120px;
+  }
+
+  section {
+    width: 90%;
+    padding: 1em;
+  }
+
+  header, footer {
+    padding: 0.8em;
+  }
+}
+
