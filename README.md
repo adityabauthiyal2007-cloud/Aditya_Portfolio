@@ -1,3 +1,3 @@
 # Aditya_Portfolio
-Includes About Me, My Projects, My skills and contact
+Includes About Me, My Projects, My skills and Contact
 
